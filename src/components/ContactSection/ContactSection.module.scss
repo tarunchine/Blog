@@ -1,0 +1,73 @@
+.contactContainer {
+    background: url(https://images.ctfassets.net/jxacs5ual3fg/1RyhCAiUa1iIpL4NlZRMlt/b6658536651f759ed7c4fa8f23e42c98/landscape-1112911_1920.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    input, 
+    textarea {
+        min-height: 40px;
+        margin-bottom: 25px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        width: 45%;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+    }
+
+    textarea {
+        min-height: 150px;
+        width: 100%;
+    }
+
+    button {
+        padding: 15px 20px;
+        background-color: #FC6F5C;
+        border-radius: 25px;
+        border: navajowhite;
+        color: #fff;
+    }
+}
+
+.contactSectionDetails {
+    display: flex;
+}
+
+.form {
+    flex: 1;
+}
+
+.formfieldContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactDetails {
+    padding: 20px;
+    text-align: center;
+    background: rgba(0,0,0,.7);
+    margin-left: 25px;
+    border-radius: 4px;
+    margin-top: -88px;
+}
+
+.contactDetail {
+    font-size: 30px;
+    padding: 20px;
+    color: #fd6e5b;
+    p {
+        margin: 15px 0;
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+        margin: 0;
+    }
+}

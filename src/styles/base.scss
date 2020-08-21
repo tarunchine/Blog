@@ -1,0 +1,21 @@
+@import 'fonts';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+    transition: all ease .3s;
+}
+
+a:hover,
+a:focus {
+    color: #FC6F5C;
+    border-color: #FC6F5C;
+}

@@ -1,0 +1,37 @@
+.homeContainer {
+    background: url(https://images.ctfassets.net/jxacs5ual3fg/1RyhCAiUa1iIpL4NlZRMlt/b6658536651f759ed7c4fa8f23e42c98/landscape-1112911_1920.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courgette', 'open sans';
+    font-size: 30px;
+}
+
+.name {
+    font-size: 45px;
+    margin: 0 0 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.name:before,
+.name:after {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    left: -40%;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.name:after {
+    left: auto;
+    right: -40%;
+}

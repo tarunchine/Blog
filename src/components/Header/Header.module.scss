@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 20px 0;
+    z-index: 1;
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        margin-left: 20px;
+    }
+}
